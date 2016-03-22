@@ -8,6 +8,7 @@ test('Enum', function (t) {
   t.true(val.FOO)
   t.false(val.BAR)
   t.false(val.BAZ)
+  t.same(val.toString(), 'FOO')
   t.end()
 })
 
@@ -21,6 +22,7 @@ test('Real world example', function (t) {
 
   if (state.DOWN) t.false(false)
 
+  t.same(state.toString(), 'JUST_UP')
   t.true(state.JUST_UP)
   t.end()
 })

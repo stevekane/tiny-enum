@@ -16,6 +16,7 @@ function Enum () {
 }
 
 function defProp (target, arg1, arg2) {
+  target.toString = function () { return arg2 }
   Object.defineProperty(target, arg1, {
     value: arg1 === arg2
   })
