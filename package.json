@@ -1,5 +1,5 @@
 {
-  "name": "simple-enum",
+  "name": "tiny-enum",
   "version": "1.0.0",
   "description": "Simple string-based enumeration for javascript",
   "main": "index.js",
@@ -8,18 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/stevekane/simple-enum.git"
+    "url": "git+ssh://git@github.com/stevekane/tiny-enum.git"
   },
   "keywords": [
     "enum",
-    "simple"
+    "tiny"
   ],
   "author": "Steve Kane",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/stevekane/simple-enum/issues"
+    "url": "https://github.com/stevekane/tiny-enum/issues"
   },
-  "homepage": "https://github.com/stevekane/simple-enum#readme",
+  "homepage": "https://github.com/stevekane/tiny-enum#readme",
   "devDependencies": {
     "tape": "^4.5.1"
   }
